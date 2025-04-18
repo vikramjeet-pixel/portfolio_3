@@ -34,7 +34,7 @@ const Hero = () => {
 
         <div className="flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14">
           <Link
-            href="https://github.com/victorcodess"
+            href="https://github.com/vikramjeet-pixel"
             target="_blank"
             aria-label="View GitHub Profile"
           >
@@ -42,11 +42,11 @@ const Hero = () => {
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              GH
+              GitHub
             </motion.p>
           </Link>
           <Link
-            href="https://www.linkedin.com/in/victor-williams-chukwudi/"
+            href="https://www.linkedin.com/in/vikramjeet-singh-539743326/"
             target="_blank"
             aria-label="View LinkedIn Profile"
           >
@@ -54,7 +54,7 @@ const Hero = () => {
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              LN
+              LinkedIN
             </motion.p>
           </Link>
           <Link
@@ -66,11 +66,11 @@ const Hero = () => {
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              TW
+              Twitter
             </motion.p>
           </Link>
           <Link
-            href="https://contra.com/victorwilliams"
+            href="https://www.instagram.com/pixel.vikram/"
             target="_blank"
             aria-label="View Contra Profile"
           >
@@ -78,7 +78,7 @@ const Hero = () => {
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              CO
+              Instagram
             </motion.p>
           </Link>
         </div>
