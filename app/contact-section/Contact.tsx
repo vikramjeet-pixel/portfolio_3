@@ -133,12 +133,12 @@ const Contact = () => {
               />
             </Link>
             <Link
-              href="https://blog.victorwilliams.me/"
+              href="http://www.youtube.com/@Vikramjeetsingh-h2f"
               target="_blank"
               aria-label="View Hashnode Profile"
             >
               <AnimatedTitle
-                text={"HN"}
+                text={"YT"}
                 className={
                   "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
                 }
