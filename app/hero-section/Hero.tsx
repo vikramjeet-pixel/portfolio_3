@@ -118,16 +118,16 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Frontend Engineer and Web Designer, prev at{" "}
+            Frontend Engineer and Web Designer, currently studying at{" "}
             <Link
-              href="https://www.korahq.com/"
+              href="https://www.bcu.ac.uk/courses"
               target="_blank"
               className="underline underline-offset-2 hover:no-underline"
               aria-label="Kora Website"
             >
-              Kora,
+              BCU,
             </Link>{" "}
-            currently available for work.
+            and available for work.
           </p>
         </motion.div>
 
