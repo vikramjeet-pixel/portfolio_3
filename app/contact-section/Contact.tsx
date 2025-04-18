@@ -77,7 +77,7 @@ const Contact = () => {
 
           <div className="flex gap-10 text-[16px] font-bold text-[#e4ded7]  sm:gap-14 sm:text-[24px] md:gap-10 md:text-[16px] lg:gap-20 lg:text-[28px]">
             <Link
-              href="https://github.com/victorcodess"
+              href="https://github.com/vikramjeet-pixel"
               target="_blank"
               aria-label="View GitHub Profile"
             >
@@ -91,7 +91,7 @@ const Contact = () => {
               />
             </Link>
             <Link
-              href="https://www.linkedin.com/in/victor-williams-chukwudi/"
+              href="https://www.linkedin.com/in/vikramjeet-singh-539743326/"
               target="_blank"
               aria-label="View LinkedIn Profile"
             >
@@ -105,7 +105,7 @@ const Contact = () => {
               />
             </Link>
             <Link
-              href="https://twitter.com/victorwill__"
+              href="https://x.com/Vikramjeet096"
               target="_blank"
               aria-label="View Twitter Profile"
             >
@@ -119,7 +119,7 @@ const Contact = () => {
               />
             </Link>
             <Link
-              href="https://www.instagram.com/victorwill__/"
+              href="https://www.instagram.com/pixel.vikram/"
               target="_blank"
               aria-label="View Instagram Profile"
             >
