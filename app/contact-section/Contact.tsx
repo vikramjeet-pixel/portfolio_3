@@ -62,7 +62,7 @@ const Contact = () => {
                 }
               />
               <Link
-                href="https://cal.com/victorwilliams/30min"
+                href="https://cal.com/vikramjeet-singh-t0mciu/anything-about-computer-science"
                 target="_blank"
                 aria-label="Send me an email"
                 className="bor der mt-1 w-[110px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[147px] md:mt-3 md:-ml-[3px] md:w-[120px] lg:mt-4"
