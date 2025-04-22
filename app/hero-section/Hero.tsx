@@ -19,15 +19,15 @@ const Hero = () => {
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
           <Link
-            href="https://cal.com/vikramjeet-singh-t0mciu/anything-about-computer-science"
+            href="mailto:vikramjeetsinghs341@gmail.com?subject=Inquiry%20from%20Portfolio%20Website&body=Hello%20Vikramjeet%20we%20want%20to%20contact%20you%20for..."
             target="_blank"
-            aria-label="BOOK A CALL"
+            aria-label="Contact Me"
           >
             <motion.button
               className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block  md:text-[16px] lg:block"
               variants={bodyAnimation}
             >
-              BOOK A CALL
+              HIRE ME
             </motion.button>
           </Link>
         </div>
