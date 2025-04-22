@@ -4,7 +4,7 @@ import AnimatedWords2 from "../animations/AnimatedWords2";
 import { monaSans } from "../fonts/monaSans";
 import AnimatedBody from "../animations/AnimatedBody";
 import { motion } from "framer-motion";
-import hireMe from "../../public/hiremeoncontra-dark.webp";
+import credly from "../../public/credly.png";
 import Image from "next/image";
 
 const Reviews = () => {
@@ -53,11 +53,11 @@ const Reviews = () => {
           amount: "some",
           once: true,
         }}
-        href="https://contra.com/victorwilliams"
+        href="https://www.credly.com/users/vikramjeet-singh.7a7f7899"
         target="_blank"
         className="mt-10 mb-5 sm:mb-0 sm:mt-20"
       >
-        <Image src={hireMe} alt={"hire me"} className="w-full" />
+        <Image src={credly} alt={"hire me"} className="w-52" />
       </motion.a>
 
       {/* <motion.div
