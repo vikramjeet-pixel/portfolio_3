@@ -46,7 +46,7 @@ export const reviewDetails = [
     company: "GOOGLE",
     profileImg: certificate1,
     testimonial:
-      "",
+      "Certified in 'Applying AI Principles with Google Cloud,' showcasing expertise in leveraging AI technologies to create innovative solutions.",
   },
   {
     name: "Innovation with Google Cloud AI",
@@ -54,7 +54,7 @@ export const reviewDetails = [
     company: "GOOGLE",
     profileImg: certificate2,
     testimonial:
-      "I had the pleasure of working with Victor on a frontend development project at Mono, and I highly recommend him. He consistently delivered high-quality code, and brought a proactive and creative approach to problem-solving.",
+      "Certified in Innovation with Google Cloud AI, showcasing expertise in leveraging AI technologies for innovative solutions",
   },
   {
     name: "Vertex AI and Dialogflow CX",
@@ -62,7 +62,7 @@ export const reviewDetails = [
     company: "GOOGLE",
     profileImg: certificate3,
     testimonial:
-      "Very talented and amazing freelancer. Very easy to communicate with, pleasure to work with. Outstanding attention to detail, and works as fast as possible while also delivering amazing work.",
+      "Certified by Google in Vertex AI and Dialogflow CX, showcasing expertise in advanced AI model development and conversational AI solutions.",
   },
   
   
