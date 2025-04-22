@@ -8,7 +8,7 @@ import profile from "../../public/samuel.avif";
 import slash from "../../public/review-slash.svg";
 import { motion } from "framer-motion";
 
-const BlogCard = ({
+const CertificationCard = ({
   name,
   role,
   company,
@@ -16,11 +16,6 @@ const BlogCard = ({
   testimonial,
   index,
 }: reviewProps) => {
-  const abbreviateName = (name: string): string => {
-    const [firstName, lastName] = name.split(" ");
-    return `${firstName} ${lastName[0]}.`;
-  };
-
   return (
     <motion.div
     initial={{ opacity: 0, y: 10 }}
@@ -41,7 +36,7 @@ const BlogCard = ({
     >
       <Image
         src={slash}
-        alt={"title"}
+        alt={"certification badge"}
         className="absolute top-[34px] left-[28px] w-[51px]"
       />
 
@@ -52,14 +47,14 @@ const BlogCard = ({
       <div className="flex gap-3 sm:absolute sm:bottom-[28px] sm:left-[28px]">
         <Image
           src={profileImg}
-          alt={"title"}
+          alt={"certification logo"}
           width={1600}
           height={840}
-          className="h-[41px] w-[41px] rounded-full bg-contain bg-center object-cover grayscale"
+          className="h-[80px] w-[80px] rounded-full bg-contain bg-center object-cover"
         />
         <div className="flex flex-col gap-1 pr-7">
           <h3 className="w-[176px] text-[23px] font-bold uppercase leading-[20.7px] tracking-[-0.46056px] text-[#e4ded7]">
-            {abbreviateName(name)}
+            {name}
           </h3>
           <p className="text-sm font-[500] leading-[16px] text-[#95979D]">
             {role} @ {company}
@@ -70,4 +65,4 @@ const BlogCard = ({
   );
 };
 
-export default BlogCard;
+export default CertificationCard;

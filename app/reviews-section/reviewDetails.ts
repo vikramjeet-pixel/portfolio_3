@@ -1,10 +1,10 @@
 import { StaticImageData } from "next/image";
-import alex from "../../public/samuel.avif";
-import jerry from "../../public/jerry.avif";
-import mauro from "../../public/mauro.jpeg";
-import alan from "../../public/alan.jpeg";
-import olamide from "../../public/olamide.jpeg";
-import umar from "../../public/umar.jpeg";
+import badge1 from "../../public/badge1.svg";
+import badge2 from "../../public/badge2.svg";
+import badge3 from "../../public/badge3.svg";
+import certificate1 from "../../public/certificate1.png";
+import certificate2 from "../../public/certificate2.png";
+import certificate3 from "../../public/certificate3.png";
 
 export type reviewProps = {
   name: string;
@@ -17,52 +17,53 @@ export type reviewProps = {
 
 export const reviewDetails = [
   {
-    name: "Samuel Alex",
-    role: "Product Designer",
-    company: "Umoja Linn",
-    profileImg: alex,
+    name: "Solution Challenge 2025",
+    role: "",
+    company: "GOOGLE",
+    profileImg: badge1,
     testimonial:
-      "Victor is seriously one of the best frontend developers I've ever worked with. He's incredibly talented, super easy to work with, and always goes above and beyond.",
+      "Participated in the Google 2025 Solution Challenge, developing innovative solutions aligned with the UN's Sustainable Development Goals using Google technologies.",
   },
   {
-    name: "Jeremiah Oloyede",
-    role: "Founder",
-    company: "Crown Branding Agency",
-    profileImg: jerry,
+    name: "Cloud Innovator",
+    role: "",
+    company: "GOOGLE",
+    profileImg: badge2,
     testimonial:
-      "Victor's work is truly outstanding, and I can't recommend him enough! He completely transformed our branding agency's website. Since launch, we've seen a significant jump in website traffic and, crucially, conversions.",
+      "Earned the Google Cloud Innovator badge, showcasing expertise in leveraging Google Cloud technologies for innovative solutions.",
   },
   {
-    name: "Mauro Reis",
-    role: "CEO",
-    company: "Meuclone Digital",
-    profileImg: mauro,
+    name: "I/O Registered",
+    role: "",
+    company: "GOOGLE",
+    profileImg: badge3,
     testimonial:
-      "Outstanding professional, developed our startup's website and delivered it in a very short time and with high quality.",
+      "​Registered attendee of Google I/O 2025, engaging with the latest innovations in AI, Android, web, and cloud technologies",
   },
   {
-    name: "Umar Abdullahi",
-    role: "Head of Engineering",
-    company: "Mono",
-    profileImg: umar,
+    name: "Applying AI Principals With GC",
+    role: "",
+    company: "GOOGLE",
+    profileImg: certificate1,
     testimonial:
-      "Victor is hardworking and has great sense of ownership. He was able to contribute in engineering excellent user interfaces and user experiences at Mono. I’m confident he will be a great asset to any engineering team.",
+      "",
   },
   {
-    name: "Olamide Sholanke",
-    role: "Senior Frontend Engineer",
-    company: "Mono",
-    profileImg: olamide,
+    name: "Innovation with Google Cloud AI",
+    role: "",
+    company: "GOOGLE",
+    profileImg: certificate2,
     testimonial:
       "I had the pleasure of working with Victor on a frontend development project at Mono, and I highly recommend him. He consistently delivered high-quality code, and brought a proactive and creative approach to problem-solving.",
   },
   {
-    name: "Alan Franciskovic",
-    role: "Sales Specialist",
-    company: "Croatia Osiguranje d.d",
-    profileImg: alan,
+    name: "Vertex AI and Dialogflow CX",
+    role: "",
+    company: "GOOGLE",
+    profileImg: certificate3,
     testimonial:
       "Very talented and amazing freelancer. Very easy to communicate with, pleasure to work with. Outstanding attention to detail, and works as fast as possible while also delivering amazing work.",
   },
+  
   
 ];
