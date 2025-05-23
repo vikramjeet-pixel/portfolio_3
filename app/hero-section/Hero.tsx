@@ -39,10 +39,10 @@ const Hero = () => {
             aria-label="View GitHub Profile"
           >
             <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
+              className="text-[20px] font-bold text-[#e4ded7] md:text-[24px]"
               variants={bodyAnimation}
             >
-              GitHub
+              GH
             </motion.p>
           </Link>
           <Link
@@ -51,22 +51,22 @@ const Hero = () => {
             aria-label="View LinkedIn Profile"
           >
             <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
+              className="text-[20px] font-bold text-[#e4ded7] md:text-[24px]"
               variants={bodyAnimation}
             >
-              LinkedIN
+              LN
             </motion.p>
           </Link>
           <Link
-            href="https://twitter.com/victorwill__"
+            href="https://x.com/Vikramjeet096"
             target="_blank"
             aria-label="View Twitter Profile"
           >
             <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
+              className="text-[20px] font-bold text-[#e4ded7] md:text-[24px]"
               variants={bodyAnimation}
             >
-              Twitter
+              TW
             </motion.p>
           </Link>
           <Link
@@ -75,10 +75,10 @@ const Hero = () => {
             aria-label="View Contra Profile"
           >
             <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
+              className="text-[20px] font-bold text-[#e4ded7] md:text-[24px]"
               variants={bodyAnimation}
             >
-              Instagram
+              IG
             </motion.p>
           </Link>
         </div>
