@@ -13,9 +13,9 @@ const syne = Syne({
 export const metadata: Metadata = {
   title: "Vikramjeet singh",
   description:
-    "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+    "Frontend Engineer and Web Designer, currently at UK. Focused on interfaces and experiences, working remotely from Birmingham, UK.",
   generator: "Next.js",
-  applicationName: "Victor Williams",
+  applicationName: "Vikramjeet singh",
   keywords: [
     "freelance",
     "developer",
@@ -39,12 +39,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Vikramjeet singh",
     description:
-      "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
-    url: "https://www.victorwilliams.me/",
-    siteName: "www.victorwilliams.me",
+      "Frontend Engineer and Web Designer, currently at UK. Focused on interfaces and experiences, working remotely from Birmingham, UK.",
+    url: "https://vikramjeetsingh.vercel.app/",
+    siteName: "https://vikramjeetsingh.vercel.app/",
     images: [
       {
-        url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
+        url: "public/coverpage.png",
         width: 1200,
         height: 630,
         alt: "Vikramjeet singh",
@@ -57,8 +57,8 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Vikramjeet singh",
     description:
-      "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
-    creator: "victorwill__",
+      "Frontend Engineer and Web Designer, currently at UK. Focused on interfaces and experiences, working remotely from Birmingham, UK.",
+    creator: "Vikramjeet singh",
     creatorId: "1243720976552144897",
     images: [
       "public/coverpage.png",
